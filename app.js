@@ -10,7 +10,9 @@ const newCase=document.getElementById('bdNewCase')
 
 fetch ('https://api.covid19api.com/summary')
 .then (response=>response.json())
+
 .then (json=>displayData(json))
+
 
 
 
